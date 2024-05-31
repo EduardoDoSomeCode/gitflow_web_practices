@@ -1,3 +1,21 @@
-img{
-    
+.hero-image {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    max-width: 600px;
+    box-shadow: 0 0 5px black;
+    border-radius: 4px;
+
+}
+.container_hero_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem;
+}
+.text{
+    padding: 1rem;
+}
+
+.title{
+    text-align: center;
 }
