@@ -6,16 +6,63 @@
     border-radius: 4px;
 
 }
-.container_hero_image{
+
+.container_hero_image {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem 0 1rem;
 }
-.text{
+
+.text {
     padding: 1rem;
 }
 
-.title{
+.title {
     text-align: center;
+}
+
+.visualize_img {
+    padding: 1rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_vis{
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    max-width: 350px;
+    filter: drop-shadow(0 5px 10px black);
+    border-radius: 4px;
+    transition: scale 400ms;
+
+}
+
+.img_vis:hover {
+    scale: .8;
+}
+.animes_section{
+    padding: 2rem  2rem;
+    background-color: rgb(42, 32, 51);
+}
+.new_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.movie_img{
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    max-width: 660px;
+}
+.title_main{
+    font-size: clamp(1.5rem, 1vw, 2rem);
+}
+
+@media (max-width: 500px) {
+    .visualize_img{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
 }
