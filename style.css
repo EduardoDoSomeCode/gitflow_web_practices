@@ -46,3 +46,23 @@
     padding: 2rem  2rem;
     background-color: rgb(42, 32, 51);
 }
+.new_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.movie_img{
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    max-width: 660px;
+}
+.title_main{
+    font-size: clamp(1.5rem, 1vw, 2rem);
+}
+
+@media (max-width: 500px) {
+    .visualize_img{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+}
