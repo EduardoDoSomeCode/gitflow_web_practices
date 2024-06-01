@@ -1,4 +1,4 @@
-.hero-image {
+.hero-image, .gallery_img {
     aspect-ratio: 2/1;
     object-fit: cover;
     max-width: 600px;
@@ -18,4 +18,23 @@
 
 .title{
     text-align: center;
+}
+.gallery{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+}
+ul,ol{
+    list-style: none;
+}
+.gallery_img{
+    aspect-ratio: 1/2;
+    max-width:  300px;
+    transition: scale 450ms linear;
+}
+.gallery_img:hover{
+    transform: scale(.9);
 }
