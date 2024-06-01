@@ -23,6 +23,7 @@
 }
 
 .visualize_img {
+    padding: 1rem 0 ;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -40,4 +41,8 @@
 
 .img_vis:hover {
     scale: .8;
+}
+.animes_section{
+    padding: 2rem  2rem;
+    background-color: rgb(42, 32, 51);
 }
