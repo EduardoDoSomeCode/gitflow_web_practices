@@ -60,12 +60,15 @@
     font-size: clamp(1.5rem, 1vw, 2rem);
 }
 
+.main_container_text{
+    padding: 1rem; 
+}
+
 @media (max-width: 500px) {
     .visualize_img{
         flex-direction: column;
         gap: 2rem;
     }
     
-.main_container_text{
-    padding: 1rem;
+
 }
